@@ -1,0 +1,143 @@
+
+/* CSS REST?/////////////////////////////////////////////// */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* /////////////////////////////////////////////////////////// */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    background-color:#f9f8f4;
+    display:flex;
+}
+/* HEADER///////////////////////////////////////////////////// */
+/* header {
+    position:sticky;
+    top:0;
+    margin:0;
+}  */
+.bluebar {
+    /* position:absolute;  */
+    background-color:#d3e2e1;
+    height:2em;
+}
+header img {
+    position: relative;
+    z-index:6;
+    top: -2em;
+} 
+nav {
+    background-color:#f9f8f4;
+    padding: 0 0 2.2em 0; 
+    border-bottom: .1em solid #9e9d9a;
+}
+nav button {
+    text-decoration:none;
+    color:#605e5a;
+    font-weight: 700;
+    padding: 0 4.4em;
+    border:none;
+    background-color:#f9f8f4;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+}
+/* MAIN///////////////////////////////// */
+main {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+/* SECTION////////////////////////////// */
+#shopping-items ul {
+    display:flex;
+    justify-content: space-around;
+    padding: 5em 0 0 0;
+}
+#shopping-items p {
+    text-align:center;
+    color:#605e5a;
+    font-weight: 400;
+}
+/* ASIDE///////////////////////////////////////////////////// */
+aside {
+    background-color:#f7f7f7c5;
+    width:50%;
+}
+aside h1 {
+    text-align:center;
+    font-size: 2em;
+    margin: 1em 0 0 0;
+    font-weight: 700;
+    color:#605e5a;
+}
+#shopping-cart ul {
+    text-align:center;
+    color:#605e5a;
+    font-weight: 400;
+    margin:5em 0 0 0;
+}
+/* FOOTER///////////////////////////////////////////////////// */
+footer {
+    position:absolute;
+    bottom:.7em;
+} 
+footer ul {
+    display:flex;
+} 
+footer p {
+    text-align:center;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+}
+.fab {
+    background-color:#6ab5b1;
+    color:white;
+    border-radius:50%;
+    padding:.5em;
+    margin:.5em;
+} 

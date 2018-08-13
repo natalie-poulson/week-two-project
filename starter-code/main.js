@@ -33,7 +33,7 @@ var drinkItems = [
 	},
 	{
 		img: './images/milk.png',
-		name: 'Wine'
+		name: 'Milk'
 	}
 ];
 
